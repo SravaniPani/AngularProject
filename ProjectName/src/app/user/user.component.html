@@ -1,0 +1,15 @@
+<div>
+
+     <!--Listening event with event binding-->
+    <!--We bind events within the "()"-->
+
+    <button (click)="onSelectUser()">
+     <!--Property Interpolation-->
+        <!-- <img [src]="'assets/users/' + selectedUser.avatar" [alt]="selectedUser.name" /> -->
+
+        <img   [src]="ImagePath" [alt]="selectedUser.name"/>
+        <!--String Interpolation-->
+        <span>{{ selectedUser.name }}</span>
+    </button>
+    
+</div>
